@@ -1,0 +1,91 @@
+/* Fullscreen background dengan gambar kamu */
+body.masukakun-bg {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/b6/98/19/b69819963eb542fdf71e9ed459842a55.jpg'); /* Ganti path sesuai gambarmu */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start; 
+  padding-top: 80px; 
+  box-sizing: border-box;
+}
+
+/* Container login transparan panjang */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.12); /* Transparan */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+/* Form layout */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.login-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Input field style */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+
+/* Placeholder text color */
+.login-form input::placeholder {
+  color: #eee;
+}
+
+/* Button style */
+.login-form button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00b894;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #019875;
+}
+
+/* Register text */
+.register-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #eee;
+}
+
+.register-text a {
+  color: #00cec9;
+  text-decoration: none;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
