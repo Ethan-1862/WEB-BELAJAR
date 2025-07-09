@@ -1,0 +1,157 @@
+/* ==== GLOBAL RESET & BACKGROUND ==== */
+body.dark-bg {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/87f1d34d-2002-4608-b166-a5c6fac0f344/dfzhvuj-ee1f0a51-3e9d-4eb0-96b5-d63ddac7760a.jpg/v1/fill/w_1192,h_670,q_70,strp/_filtered_lunox_legend_skin_mlbb_wallpaper_by_dechunf_dfzhvuj-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI1MCIsInBhdGgiOiJcL2ZcLzg3ZjFkMzRkLTIwMDItNDYwOC1iMTY2LWE1YzZmYWMwZjM0NFwvZGZ6aHZ1ai1lZTFmMGE1MS0zZTlkLTRlYjAtOTZiNS1kNjNkZGFjNzc2MGEuanBnIiwid2lkdGgiOiI8PTQwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.m13jPMDLu8N-wHfgApp4M7QliKFIA-7Wv-o3rBFWt3A') no-repeat center center/cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+/* ==== CONTAINER ==== */
+.register-container {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: rgb(36, 35, 35);
+  box-sizing: border-box;
+}
+
+/* ==== HEADINGS ==== */
+.register-container {
+  background: rgba(0, 0, 0, 0.5); /* hitam transparan */
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: white;
+  box-sizing: border-box;
+}
+
+.register-container p {
+  font-size: 14px;
+  color: #eee;
+}
+
+/* ==== FORM LAYOUT ==== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+/* ==== PHONE GROUP ==== */
+.phone-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-group .flag {
+  font-size: 18px;
+}
+
+/* ==== PASSWORD TOGGLE ==== */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ==== BUTTON ==== */
+.register-btn {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #019875;
+}
+
+/* ==== LOGIN LINK ==== */
+.login-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.login-link a {
+  color: #00cec9;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .register-container {
+    padding: 30px 20px;
+    margin: 0 10px;
+  }
+}
