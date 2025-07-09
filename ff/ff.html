@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Up Free Fire | Ethan Joki</title>
+  <link rel="stylesheet" href="ff.css" />
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <header class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Login</a>
+  </header>
+
+  <section class="container">
+    <h1>Top Up Diamond Free Fire</h1>
+    <form id="topupForm">
+      <label>ID Akun Free Fire:</label>
+      <input type="text" id="id" required placeholder="Masukkan ID Akun Anda" />
+
+      <label>Nomor Telepon:</label>
+      <input type="text" id="phone" required placeholder="08xxxxxxxxxx" />
+
+      <label>Pilih Paket Diamond:</label>
+      <div class="diamond-grid" id="diamondGrid"></div>
+
+      <label>Pilih Metode Pembayaran:</label>
+      <div class="payment-grid" id="paymentGrid"></div>
+
+      <label>Email atau WhatsApp Aktif:</label>
+      <input type="text" id="contact" required placeholder="email atau nomor WA" />
+
+      <button type="button" id="confirmBtn">Konfirmasi Pembayaran</button>
+    </form>
+
+    <div id="receipt" class="receipt hidden">
+      <h2>Struk Pembayaran</h2>
+      <p id="r-id"></p>
+      <p id="r-phone"></p>
+      <p id="r-package"></p>
+      <p id="r-payment"></p>
+      <p id="r-contact"></p>
+      <button onclick="sendToWhatsApp()">Kirim ke WhatsApp</button>
+    </div>
+  </section>
+
+  <script src="ff.js"></script>
+</body>
+</html>
