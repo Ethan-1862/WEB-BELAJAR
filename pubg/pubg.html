@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top Up PUBG Mobile | Ethan TopUp</title>
+  <link rel="stylesheet" href="pubg.css" />
+</head>
+<body class="bg-pubg">
+
+  <div class="overlay"></div>
+
+  <header class="navbar">
+    <a href="/home/home.html">Home</a>
+    <a href="/login/login.html">Login</a>
+  </header>
+
+  <section class="pubg-hero">
+    <h1>Top Up PUBG Mobile</h1>
+    <p>Mudah, cepat, dan terpercaya. Cukup masukkan ID dan pilih jumlah UC!</p>
+  </section>
+
+  <section class="topup-form" id="form">
+    <h2>Form Top Up UC</h2>
+    <form id="topupForm">
+      <label for="pubg-id">Player ID (Hanya Angka)</label>
+      <input type="text" id="pubg-id" name="pubg-id" pattern="[0-9]+" required placeholder="Masukkan ID PUBG Kamu"/>
+
+      <label for="uc">Pilih Jumlah UC</label>
+      <select id="uc" name="uc">
+        <option value="63">63 UC - Rp15.000</option>
+        <option value="125">125 UC - Rp29.000</option>
+        <option value="340">340 UC - Rp75.000</option>
+        <option value="690">690 UC - Rp145.000</option>
+        <option value="1040">1040 UC - Rp215.000</option>
+      </select>
+
+      <label for="metode">Metode Pembayaran</label>
+      <select id="metode" name="metode">
+        <option value="dana">DANA</option>
+        <option value="gopay">GoPay</option>
+        <option value="ovo">OVO</option>
+        <option value="qris">QRIS</option>
+      </select>
+
+      <button type="submit">Top Up Sekarang</button>
+    </form>
+  </section>
+
+  <!-- STRUK -->
+  <section class="struk" id="struk" style="display: none;">
+    <h2>Struk Pembayaran</h2>
+    <p><strong>ID Pemain:</strong> <span id="s-id"></span></p>
+    <p><strong>Paket UC:</strong> <span id="s-uc"></span></p>
+    <p><strong>Metode Pembayaran:</strong> <span id="s-metode"></span></p>
+    <p><strong>Tanggal:</strong> <span id="s-tanggal"></span></p>
+  </section>
+
+  <footer class="custom-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2><a href="#">ETHAN JOKI</a></h2>
+        <p>Top-Up Game Favorit Kamu Di ETHAN JOKI Agar Main Game Semakin Seru.<br>
+        Pengiriman Cepat Dan Berbagai Metode Pembayaran Yang Lengkap.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>PETA SITUS</h4>
+        <ul>
+          <li><a href="/home/home.html">Beranda</a></li> 
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>TOP UP LAINNYA</h4>
+        <ul>
+          <li><a href="ml.html">Mobile Legends</a></li>
+          <li><a href="ff.html">Free Fire</a></li>
+          <li><a href="pubg.html">PUBG Mobile</a></li>
+          <li><a href="pointblank.html">Point Blank</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>IKUTI KAMI</h4>
+        <div class="sosmed-icons">
+          <a href="https://instagram.com/gibso.__" target="_blank">📷</a>
+          <a href="https://wa.me/6285718668652" target="_blank">💬</a>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <p class="copyright">
+      © 2025 Ethan TopUp. Semua Hak Cipta. <a href="#">Syarat & Ketentuan Pengguna</a>
+    </p>
+  </footer>
+
+  <script src="pubg.js"></script>
+</body>
+</html>
