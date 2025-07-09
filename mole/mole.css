@@ -1,0 +1,157 @@
+/* ========== BACKGROUND & LAYOUT ========== */
+body.bg-ml {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: url('https://blog.metaco.gg/wp-content/uploads/2024/10/Ling-Collector.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ========== FORM JOKI ECERAN ========== */
+.eceran-section {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.eceran-section h2 {
+  text-align: center;
+  color: #FFD700;
+  margin-bottom: 1.5rem;
+}
+
+.eceran-section label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.eceran-section select,
+.eceran-section input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.eceran-section button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #FF512F, #DD2476);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.eceran-section button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #DD2476, #FF512F);
+}
+
+/* ========== TOTAL HARGA ========== */
+#totalHarga {
+  font-size: 1.1rem;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+/* ========== STRUK PEMBAYARAN ========== */
+.struk .wa-link {
+  display: block;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #25D366;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.struk .wa-link:hover {
+  background-color: #1ebe5b;
+}
+
+
+.struk h3 {
+  margin-bottom: 1rem;
+  color: #00FFCC;
+}
+
+/* ========== FOOTER ========== */
+footer.custom-footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 2rem 1rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section, .footer-brand {
+  margin: 1rem;
+  max-width: 200px;
+}
+
+.footer-section h4 {
+  color: #FFD700;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.sosmed-icons a {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #555;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+

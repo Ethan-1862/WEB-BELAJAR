@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joki Rank Mobile Legends</title>
+  <link rel="stylesheet" href="mole.css" />
+</head>
+<body class="bg-ml">
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="/home/home.html">Home</a>
+  </div>
+
+<section class="eceran-section">
+  <h2>🎮 Joki Mobile Legends</h2>
+
+  <form id="eceranForm">
+    <label for="rank">Pilih Rank:</label>
+    <select id="rank" required>
+      <option value="">-- Pilih Rank --</option>
+      <option value="Elite" data-harga="3000">Elite (Rp 3.000 / bintang)</option>
+      <option value="Master" data-harga="5000">Master (Rp 5.000 / bintang)</option>
+      <option value="Grandmaster" data-harga="6000">Grandmaster (Rp 6.000 / bintang)</option>
+      <option value="Epic" data-harga="8000">Epic (Rp 8.000 / bintang)</option>
+      <option value="Legend" data-harga="10000">Legend (Rp 10.000 / bintang)</option>
+      <option value="Mythic" data-harga="15000">Mythic (Rp 15.000 / bintang)</option>
+      <option value="Immortal" data-harga="20000">Immortal (Rp 20.000 / bintang)</option>
+    </select>
+
+    <label for="bintang">Jumlah Bintang:</label>
+    <input type="number" id="bintang" value="1" min="1" required />
+
+    <label for="metode">Metode Pembayaran:</label>
+    <select id="metode" required>
+      <option value="">-- Pilih Metode --</option>
+      <option value="Bank BCA">Bank BCA</option>
+      <option value="Dana">Dana</option>
+      <option value="OVO">OVO</option>
+      <option value="Gopay">Gopay</option>
+      <option value="ShopeePay">ShopeePay</option>
+      <option value="QRIS">QRIS</option>
+    </select>
+
+    <label for="kontak">Kontak WhatsApp / Email:</label>
+    <input type="text" id="kontak" placeholder="Masukkan kontak aktif" required />
+
+    <!-- ✅ Total Harga Langsung -->
+    <p><strong>Total Harga:</strong> <span id="totalHarga">Rp 0</span></p>
+
+    <button type="submit">Buat Struk</button>
+  </form>
+
+  <!-- Tempat struk otomatis muncul -->
+  <div class="struk" id="strukOutput" style="display:none;"></div>
+</section>
+
+  <!-- Footer -->
+  <footer class="custom-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2><a href="#">ETHAN JOKI</a></h2>
+        <p>Top-Up Game Favorit Kamu Di ETHAN JOKI Agar Main Game Semakin Seru.<br> Pengiriman Cepat Dan Berbagai Methode Pembayaran Yang Lengkap.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>PETA SITUS</h4>
+        <ul><li><a href="/home/home.html">Beranda</a></li></ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>TOP UP LAINNYA</h4>
+        <ul>
+          <li><a href="mole.html">Mobile Legends</a></li>
+          <li><a href="ff.html">Free Fire</a></li>
+          <li><a href="pubg.html">PUBG Mobile</a></li>
+          <li><a href="pointblank.html">Point Blank</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>IKUTI KAMI</h4>
+        <div class="sosmed-icons">
+          <a href="https://instagram.com/gibso.__" target="_blank">📷</a>
+          <a href="https://wa.me/6285718668652" target="_blank">💬</a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">
+      © 2025 Ethan TopUp. Semua Hak Cipta. <a href="#">Syarat & Ketentuan Pengguna</a>
+    </p>
+
+    <script src="mole.js"></script>
+
+    </body>
+</html>
